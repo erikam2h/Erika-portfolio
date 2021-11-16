@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="index.html"
           ><span class="main-color main-text fs-2">Erika Mora</span></a
@@ -81,19 +81,14 @@
           </ul>
           <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
             <li class="nav-item col-6 col-md-auto">
-              <a
-                class="nav-link p-2"
-                href="https://github.com/twbs"
-                target="_blank"
-                rel="noopener"
-              >
-                <i class="fab fa-github"></i>
+              <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
+                <i class="fab fa-github main-color fs-4"></i>
                 <small class="d-md-none ms-2">GitHub</small>
               </a>
             </li>
             <li class="nav-item col-6 col-md-auto">
               <a class="nav-link p-2" href="#" target="_blank" rel="noopener">
-                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-linkedin main-color fs-4"></i>
                 <small class="d-md-none ms-2">Linkedin</small>
               </a>
             </li>
@@ -101,11 +96,42 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid">
-      <h1>Hola soy Erika Mora <i class="fas fa-cat"></i></h1>
-      <p class="bg-warning">
-        Este es un test de portafolio, probando clases, tipografía y bootstrap
-      </p>
+    <div class="hero pt-5">
+      <p class="p-subtitle">👋 Hello, I am</p>
+      <h1 class="main-heading">Erika Mora</h1>
+      <h2 class="mb-5">Front-end developer and web designer based in Mexico</h2>
+      <div class="pb-5">
+        <a href="#" class="btn btn-branding">
+          <i class="far fa-envelope"></i> Contact me</a
+        >
+      </div>
     </div>
+
+    <section class="m-5 pt-3">
+      <div class="container">
+        <div class="row d_flex">
+          <div class="col-sm-5 col-xs-12">
+            <h2>About Me</h2>
+          </div>
+
+          <div class="col-sm-7 col-xs-12">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nu pariatur excepteur sint occaecat.
+            </p>
+            <div class="btn_group mt-5">
+              <a href="#" class="btn btn-branding">View Works</a
+              ><a href="#" class="btn about-link">Download CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
