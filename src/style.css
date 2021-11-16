@@ -4,7 +4,24 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Yesteryear', cursive;
 */
 
+:root {
+  --bg-gradient: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --main-color: #702283;
+  --secondary-color: #49beb7;
+}
+
 body {
+  padding: 0;
+  margin: 0px auto;
+  max-width: 800 px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -12,4 +29,22 @@ h1 {
   font-family: "Birthstone", cursive;
   text-align: center;
   font-size: 50px;
+}
+
+.main-text {
+  font-family: "Birthstone", cursive;
+}
+
+.main-color {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+@media (max-width: 576px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-align: center;
+  }
 }
