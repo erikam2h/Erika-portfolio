@@ -73,7 +73,7 @@ body {
 }
 
 .btn-branding:hover {
-  color: var(--secondary-color);
+  background: var(--secondary-color);
 }
 
 .about-link:hover {
