@@ -13,9 +13,9 @@ font-family: 'Yesteryear', cursive;
     rgb(234, 251, 251) 77.6%,
     rgb(240, 251, 244) 100.7%
   );
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
   --main-color: #702283;
-  --secondary-color: #bbe4e9;
+  --secondary-color: #f1edf4;
 }
 
 body {
@@ -27,7 +27,6 @@ body {
 
 .main-heading {
   font-family: "Birthstone", cursive;
-  text-align: center;
   font-size: 90px;
   font-weight: 600;
 }
@@ -47,8 +46,13 @@ body {
 }
 
 .hero {
-  background: var(--secondary-color);
-  text-align: center;
+  background-image: url(../images/bg-workingplace.jpg);
+  background-color: var(--secondary-color);
+  background-position: bottom center;
+  background-size: cover;
+  height: 500px;
+  border-bottom: solid 1px #e6e6e6;
+  box-shadow: var(--box-shadow);
 }
 
 .btn-branding,
@@ -74,10 +78,37 @@ body {
 
 .btn-branding:hover {
   background: var(--secondary-color);
+  border: solid 2px var(--main-color);
 }
 
 .about-link:hover {
   color: var(--main-color);
+}
+
+.contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+.email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.email-link:hover {
+  color: var(--main-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--main-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: all 100ms ease-in-out;
 }
 
 @media (max-width: 576px) {
