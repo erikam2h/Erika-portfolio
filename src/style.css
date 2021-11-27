@@ -25,6 +25,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+a {
+  color: var(--main-color);
+}
+
 .main-heading {
   font-family: "Birthstone", cursive;
   font-size: 90px;
