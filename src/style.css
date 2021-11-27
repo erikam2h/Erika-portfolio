@@ -114,6 +114,15 @@ body {
   margin: 30px;
 }
 
+.text-muted {
+  color: #6c757d !important;
+}
+
+.active {
+  font-weight: 600;
+  color: var(--main-color) !important;
+}
+
 footer .social-links a {
   margin: 0 20px;
   color: var(--main-color);
