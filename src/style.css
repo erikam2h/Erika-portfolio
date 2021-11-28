@@ -50,8 +50,9 @@ a {
 }
 
 .p-subtitle {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 600;
+  color: #999999;
 }
 
 .hero {
@@ -136,18 +137,6 @@ footer .social-links a,
   border-radius: 50%;
   font-size: 20px;
   transition: all 100ms ease-in-out;
-}
-
-.links-movil {
-  color: var(--main-color);
-  text-decoration: none;
-  display: block;
-  text-decoration: none;
-}
-
-.links-movil:hover {
-  color: var(--main-color);
-  font-weight: 600;
 }
 
 @media (max-width: 576px) {
